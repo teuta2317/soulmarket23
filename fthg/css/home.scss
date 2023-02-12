@@ -1,0 +1,12 @@
+@import './reset.scss';
+
+.content {
+    position: relative;
+
+    >img {
+        position: absolute;
+        right: 80px;
+        top: 15px;
+        object-fit: contain;
+    }
+}
